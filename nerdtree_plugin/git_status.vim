@@ -9,6 +9,15 @@
 "              Want To Public License, Version 2, as published by Sam Hocevar.
 "              See http://sam.zoy.org/wtfpl/COPYING for more details.
 " ============================================================================
+let g:NERDTreeColorMapCustom = {
+    \ "Modified"  : ["#528AB3", "NONE", "NONE", "NONE"],  
+    \ "Staged"    : ["#538B54", "NONE", "NONE", "NONE"],  
+    \ "Untracked" : ["#BE5849", "NONE", "NONE", "NONE"],  
+    \ "Dirty"     : ["#299999", "NONE", "NONE", "NONE"],  
+    \ "Clean"     : ["#87939A", "NONE", "NONE", "NONE"]   
+    \ }
+
+
 if exists('g:loaded_nerdtree_git_status')
     finish
 endif
